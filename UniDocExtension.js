@@ -7,7 +7,7 @@ _([
   '$pull',
   '$push'
 ]).each(function (operator) {
-  UniDoc.prototype[operator] = function (setObj, options, callback) {
+  UniCollection.UniDoc.prototype[operator] = function (setObj, options, callback) {
     var mod = {};
     setObj = setObj || {};
     mod[operator] = setObj;
