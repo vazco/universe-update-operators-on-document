@@ -3,7 +3,7 @@
 Package.describe({
     name: 'vazco:universe-update-operators-on-document',
     summary: 'Mongo update operators as a helpers on document',
-    version: '1.0.0'
+    version: '1.0.1'
 });
 
 Package.on_use(function (api) {
