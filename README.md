@@ -13,3 +13,8 @@ doc.$set(modifierData, options, callback);
 ```
 modifierData - The modifications to apply
 options - options normally passed to update method
+
+### Installation
+```
+$ meteor add vazco:universe-update-operators-on-document
+```
